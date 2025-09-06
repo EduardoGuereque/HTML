@@ -6,7 +6,7 @@
 
 ## Trabajos
 
-### Unidad 1
+### HTML
 
 * [Trabajo 1](https://github.com/EduardoGuereque/HTML/blob/5f8f53cba4af232abc866189396ef53eea12c3a9/html/JoseJose.html)
 * [Trabajo 2](https://github.com/EduardoGuereque/HTML/blob/5f8f53cba4af232abc866189396ef53eea12c3a9/html/JoseJose.html)
