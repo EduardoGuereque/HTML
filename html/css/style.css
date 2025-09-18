@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 200vh;
+    background: rgb(219, 234, 239);
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: black;
+    box-shadow: 3px 3px 25px 0 lightgray;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    color: white;
+}
+
+.logo-container {
+    display: inline-block;
+    margin: 0;
+    padding: 1% 2%;
+    vertical-align: top;
+    width: 25%;
+}
+
+.logo {
+    height: 40px;
+    padding: 0 0 0 1%;
+}
+
+.link-container {
+    width: 68%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: bottom;
+    padding: 2% 0;
+}
+
+.link {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin-right: 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.kigui {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+    vertical-align: 20%;
+}
+
+.login {
+    background-color: red;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.login:hover {
+    background-color: darkred;
+}
+
+.construction {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    color: black;
+}
+
+.mono {
+    display: block;
+    margin: 0 auto;
+}
+
