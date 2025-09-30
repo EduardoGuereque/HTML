@@ -129,9 +129,9 @@ li:hover .submenu {
 }
 
 .tarjeta {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
     padding: 2%;
     gap: 20px;
 }
@@ -163,3 +163,4 @@ li:hover .submenu {
     color: var(--color-title);
     text-align: center;
 }
+
