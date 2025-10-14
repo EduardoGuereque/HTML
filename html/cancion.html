@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Triste - José José</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo-contenedor">
+            <img class="logo" src="img/kigui.png" alt="Logo">
+            <span class="kigui">KIGÜI</span>
+        </div>
+        <nav class="enlaces-contenedor">
+            <ul>
+                <li>
+                    <a class="enlace" href="#">Planes ▾</a>
+                    <ul class="submenu">
+                        <li><a href="#">Plan Básico</a></li>
+                        <li><a href="#">Plan Premium</a></li>
+                        <li><a href="#">Plan Familiar</a></li>
+                    </ul>
+                </li>
+                <li><a class="inicio-sesion" href="#">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container mt-5">
+        <div class="card shadow-lg p-4 mb-5 bg-white rounded text-center">
+            <h1 class="mb-3 fw-bold text-dark">El Triste</h1>
+            <h4 class="text-muted mb-4">José José — 1970</h4>
+
+            <div class="row justify-content-center mb-4">
+                <div class="col-md-6">
+                    <img src="img/eltriste.jpeg" alt="Portada de El Triste" class="img-fluid rounded shadow">
+                </div>
+            </div>
+
+            <audio controls class="w-100 mt-4">
+              <source src="audio/El Triste.mp3" type="audio/mpeg">
+            </audio>
+
+            <p class="mt-4 text-secondary px-5">
+                <i class="bi bi-music-note-beamed"></i> 
+                “El Triste” es una de las canciones más icónicas de <strong>José José</strong>, interpretada por primera vez en el Festival OTI de 1970.
+                Su poderosa interpretación consolidó al artista como una de las voces más importantes de la música romántica en español.
+            </p>
+
+            <div class="d-flex justify-content-center gap-3 mt-4">
+                <button class="btn btn-danger px-4"><i class="bi bi-heart-fill"></i> Me gusta</button>
+                <button class="btn btn-outline-dark px-4" onclick="window.history.back()"><i class="bi bi-arrow-left"></i> Volver</button>
+            </div>
+        </div>
+
+        <section class="related-songs mt-5">
+            <h3 class="mb-4 text-center text-dark">Más canciones de José José</h3>
+            <div class="row g-4">
+                <div class="col-md-3 col-sm-6">
+                    <div class="card h-100 shadow-sm">
+                        <img src="img/gavilanopaloma.jpg" class="card-img-top" alt="Gavilán o Paloma">
+                        <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">Gavilán o Paloma</h6>
+                            <a href="#" class="btn btn-sm btn-outline-danger">Escuchar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="card h-100 shadow-sm">
+                        <img src="img/amaryquerer.jpg" class="card-img-top" alt="Amar y Querer">
+                        <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">Amar y Querer</h6>
+                            <a href="#" class="btn btn-sm btn-outline-danger">Escuchar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="card h-100 shadow-sm">
+                        <img src="img/almohada.jpeg" class="card-img-top" alt="Almohada">
+                        <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">Almohada</h6>
+                            <a href="#" class="btn btn-sm btn-outline-danger">Escuchar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="card h-100 shadow-sm">
+                        <img src="img/40y20.jpeg" class="card-img-top" alt="40 y 20">
+                        <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">40 y 20</h6>
+                            <a href="#" class="btn btn-sm btn-outline-danger">Escuchar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
