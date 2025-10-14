@@ -36,10 +36,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
-.logo-container {
+.logo-contenedor {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -56,7 +55,7 @@ header {
     font-weight: bold;
 }
 
-.link-container {
+.enlaces-contenedor {
     text-align: right;
 }
 
@@ -95,11 +94,12 @@ a:hover {
     padding: 0;
     z-index: 99;
 }
+
 li:hover .submenu {
     display: block;
 }
 
-.login {
+.inicio-sesion {
     background-color: var(--color-login);
     color: var(--color-text);
     padding: 8px 15px;
@@ -107,7 +107,8 @@ li:hover .submenu {
     text-decoration: none;
     transition: background 0.5s;
 }
-.login:hover {
+
+.inicio-sesion:hover {
     background-color: var(--login-hover);
 }
 
@@ -150,21 +151,171 @@ li:hover .submenu {
     text-align: center;
 }
 
+.buscador {
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.buscador input {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 1px solid var(--card-border);
+    font-family: var(--font);
+}
+
+.boton-buscar {
+    padding: 15px 25px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: none;
+    background-color: var(--color-login);
+    color: var(--color-text);
+    font-family: var(--font);
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.boton-buscar:hover {
+    background-color: var(--login-hover);
+}
+
+
+.perfiles {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.fotoPerfil img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--card-border);
+}
+
+.artista h2 {
+    font-size: 2.5em;
+    margin: 0 0 10px 0;
+    color: var(--color-title);
+}
+
+.descripcion {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+}
+
+.generos span {
+    display: inline-block;
+    background-color: var(--color-bg);
+    color: var(--color-title);
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.artista-contenido {
+    margin-top: 20px;
+}
+
+.botones-categoria {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.boton-categoria {
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: var(--font);
+    border-radius: 25px;
+    border: none;
+    background-color: #e9e9e9;
+    color: #555;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton-categoria:hover {
+    background-color: var(--color-login);
+    color: var(--color-text);
+}
+
+.boton-categoria.activo {
+    background-color: var(--color-login);
+    color: var(--color-text);
+}
+
+.lista-contenido ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(5, auto); 
+    gap: 10px;
+}
+
+.lista-contenido li {
+    background-color: var(--card-bg);
+    padding: 15px;
+    border-radius: var(--radius);
+    border: 1px solid var(--card-border);
+    font-weight: bold;
+}
+
+.lista-contenido a {
+    color: black;
+}
+
+.lista-contenido a:hover {
+    color: white;
+}
+
 @media (max-width: 768px) {
     header {
         flex-direction: column;
         height: auto;
         padding: 10px;
     }
-    .logo-container {
+
+    .logo-contenedor {
         justify-content: center;
     }
+
     ul {
         flex-direction: column;
         gap: 10px;
         margin-top: 10px;
     }
+
     .tarjeta {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .perfiles {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .botones-categoria {
+        justify-content: center;
+    }
+
+    .lista-contenido ul {
+        grid-template-rows: repeat(10, auto);
+        grid-auto-flow: initial;
         grid-template-columns: 1fr 1fr;
     }
 }
