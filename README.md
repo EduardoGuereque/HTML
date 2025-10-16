@@ -16,6 +16,10 @@ pronto lo actualizare para que aparezcan los trabajos anteriores
 * [Examen - Sitio Web, Pagina principal](https://github.com/EduardoGuereque/HTML/commit/fa8fc0a3792619707e6e5cc37c93fd90542d03a9)
 * [Examen - Sitio Web, CSS](https://github.com/EduardoGuereque/HTML/commit/fc1421a2e2edb9e1663bffb70d06584063558674)
 
+###JavaScript
+* [Ejercicio 1 - calculadora](https://github.com/EduardoGuereque/HTML/commit/53b5bf9d10ad749f8c62814876c9eb312900014a)
+
+
 ## Tabla de informacion del usuario
 
 | Nombre  | Escuela | Carrera |
