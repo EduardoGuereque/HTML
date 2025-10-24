@@ -18,6 +18,7 @@ pronto lo actualizare para que aparezcan los trabajos anteriores
 
 ###JavaScript
 * [Ejercicio 1 - calculadora](https://github.com/EduardoGuereque/HTML/commit/53b5bf9d10ad749f8c62814876c9eb312900014a)
+* [Ejercicio 3 - calculadora visual](https://github.com/EduardoGuereque/HTML/tree/2fd819f65a447d55e2d3313591711a5a03056c22/html/javaScript/calculadora)
 
 
 ## Tabla de informacion del usuario
