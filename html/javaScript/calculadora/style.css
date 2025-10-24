@@ -1,0 +1,97 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: rgb(48, 50, 56);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculadora{
+    margin: 0;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: rgb(115, 115, 115);
+    box-shadow: 15px 0 20px rgb(0, 0, 0, 0.1);
+}
+
+#botones{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+input[type="text"] {
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(190, 200, 175);
+    display: flex;
+    border-radius: 10px;
+    text-align: right;
+    font-size: 18px;
+    color: rgb(53, 48, 39);
+}
+
+input[type="text"]::placeholder {
+    font-size: 18px;
+}
+
+input[type="button"][value="="] {
+    background-color: rgb(85, 80, 72);
+    color: white;
+    font-weight: bold;
+}
+
+input[type="button"][value="C"] {
+    background-color: rgb(240, 120, 80);
+    color: white;
+    font-weight: bold;
+}
+
+input[type="button"] {
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(236, 227, 205);
+    display: flex;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#panel {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 200px;
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    font-family: monospace;
+}
+
+#panel h3 {
+    text-align: center;
+    margin-top: 0;
+}
+
+#historial {
+    list-style: none;
+    padding-left: 0;
+    font-size: 14px;
+}
+
+#historial li {
+    border-bottom: 1px solid #ddd;
+    padding: 3px 0;
+}
+
+
