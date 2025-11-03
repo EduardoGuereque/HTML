@@ -20,7 +20,9 @@ pronto lo actualizare para que aparezcan los trabajos anteriores
 * [Ejercicio 1 - calculadora](https://github.com/EduardoGuereque/HTML/commit/53b5bf9d10ad749f8c62814876c9eb312900014a)
 * [Ejercicio 2 - Manipulación de estilos](https://github.com/EduardoGuereque/HTML/commit/9fa422354a8b1ff6cbe2f3e17c1fcdacc7d82352)
 * [Ejercicio 3 - calculadora visual](https://github.com/EduardoGuereque/HTML/tree/2fd819f65a447d55e2d3313591711a5a03056c22/html/javaScript/calculadora)
-
+* [Ejercicio 4 - Lista de Tareas](https://github.com/EduardoGuereque/HTML/commit/9d5dddba091fd1d67eb07af644bfeebf946eafe1)
+* [Ejercicio 5 - Modules (calc)](https://github.com/EduardoGuereque/HTML/commit/b384cce9e9cca30e8f139a578f0f3b5f0789f4ed)
+* [Ejercicio 5 - Modules (lista)](https://github.com/EduardoGuereque/HTML/commit/9d5dddba091fd1d67eb07af644bfeebf946eafe1)
 
 ## Tabla de informacion del usuario
 
