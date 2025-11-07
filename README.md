@@ -23,6 +23,7 @@ pronto lo actualizare para que aparezcan los trabajos anteriores
 * [Ejercicio 4 - Lista de Tareas](https://github.com/EduardoGuereque/HTML/commit/9d5dddba091fd1d67eb07af644bfeebf946eafe1)
 * [Ejercicio 5 - Modules (calc)](https://github.com/EduardoGuereque/HTML/commit/b384cce9e9cca30e8f139a578f0f3b5f0789f4ed)
 * [Ejercicio 5 - Modules (lista)](https://github.com/EduardoGuereque/HTML/commit/9d5dddba091fd1d67eb07af644bfeebf946eafe1)
+* [Ejercicio 6 - Tarjeta con datos base de un gato](https://github.com/EduardoGuereque/HTML/commit/bdaa39c6db87cdd93c2f58e88a38f289163a8df1)
 
 ## Tabla de informacion del usuario
 
