@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API CATS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Razas de Gatos</h1>
+
+    <div class="controles">
+        <label for="limitePagina">Mostrar por página: </label>
+        <select id="limitePagina">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+        </select>
+    </div>
+
+    <div id="GridGatos"></div>
+
+    <div class="pagina">
+        <button id="prevPage" disabled>Anterior</button>
+        <span id="infoPagina"></span>
+        <button id="nextPage">Siguiente</button>
+    </div>
+
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
